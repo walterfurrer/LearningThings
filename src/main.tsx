@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./index.css";
 
-createRoot(document.getElementById("body")!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <div id="site">
       <Header />

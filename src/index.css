@@ -20,13 +20,17 @@
 }
 
 body {
-    @apply m-0 flex flex-col min-h-svh place-items-center bg-linear-to-b from-slate-600 to-slate-950 text-foreground;
+    @apply bg-linear-to-b from-slate-600 to-slate-950 text-foreground;
+}
+
+#root {
+    @apply m-0 p-0 w-full h-full flex flex-col min-h-svh;
+}
+
+#site {
+    @apply flex flex-col flex-grow min-w-sm max-w-5xl mx-auto px-4;
 }
 
 .social-icon {
     @apply text-foreground-muted hover:text-foreground;
-}
-
-#site {
-    @apply flex flex-col flex-grow min-w-sm max-w-7xl px-4 justify-items-center;
 }
